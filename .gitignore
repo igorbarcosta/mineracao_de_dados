@@ -1,0 +1,18 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Pasta gerada pelo MkDocs
+site/
+
+# Arquivos do VS Code
+.vscode/
+
+# Arquivos temporários
+__pycache__/
+*.pyc
+.DS_Store
+
+# Arquivos de log ou cache
+*.log
+*.sqlite3

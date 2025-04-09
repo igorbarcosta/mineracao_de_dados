@@ -1,1 +1,2 @@
-# mineracao_de_dados
+# estatistica
+Disciplina de Estatística Aplicada

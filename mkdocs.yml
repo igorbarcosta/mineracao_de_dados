@@ -1,0 +1,75 @@
+site_name: Mineração de Dados
+site_url: https://igorbarcosta.github.io/mineracao_de_dados/
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - toc.follow
+    - search.highlight
+    - search.share
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+  palette:
+    scheme: default
+    primary: green
+    accent: red
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: images/favicon.ico
+  logo: images/logo_ifpb.png
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+repo_url: https://github.com/igorbarcosta/mineracao_de_dados
+repo_name: igorbarcosta/mineracao_de_dados
+nav:
+  - Início: index.md
+  - Roteiros de Aula:
+      - Aula 1: roteiros/aula_01.md
+  - Fundamentação Teórica:
+    - Introdução:
+      - Introdução: material/estatistica_descritiva/01_introducao.md
+    - Pré-Processamento:
+      - Detecção e Correção de Inconsistências: material/pre_processamento/deteccao_e_correcao_de_inconsistencias.md
+      - Tratamento de Dados Ausentes: material/pre_processamento/tratamento_de_dados_ausentes.md
+      - Tratamento de Outlilers: material/pre_processamento/tratamento_de_outliers.md
+      - Tratamento de Atributos Categóricos: material/pre_processamento/tratamento_de_atributos_categoricos.md
+      - Engenharia de Atributos: material/pre_processamento/engenharia_de_atributos.md
+      - Redução de Dimensionalidade: material/pre_processamento/reducao_de_dimensionalidade.md
+      - Seleção de Atributos: material/pre_processamento/selecao_de_atributos.md
+      - Balanceamento de Classes: material/pre_processamento/balanceamento_de_classes.md
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/igorbarcosta
+    - icon: fontawesome/solid/envelope
+      link: mailto:igor.costa@ifpb.edu.br
+  generator: false
+copyright: "© 2025 Igor Barbosa da Costa. Todos os direitos reservados."
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/chart.js
+  - https://cdn.jsdelivr.net/npm/chartjs-chart-box-and-violin-plot/build/Chart.BoxPlot.min.js
+  - js/visualizacao_de_dados.js
