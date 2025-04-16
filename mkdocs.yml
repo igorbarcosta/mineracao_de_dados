@@ -58,7 +58,10 @@ nav:
       - Redução de Dimensionalidade: material/pre_processamento/reducao_de_dimensionalidade.md
       - Seleção de Atributos: material/pre_processamento/selecao_de_atributos.md
       - Balanceamento de Classes: material/pre_processamento/balanceamento_de_classes.md
-
+    - Modelagem:
+      - Validação de Modelos: material/modelagem/validacao_de_modelos.md
+      - Detecção e Correção de Inconsistências: material/modelagem/otimizacao_de_hiperparametros.md
+        
 
 extra:
   social:
